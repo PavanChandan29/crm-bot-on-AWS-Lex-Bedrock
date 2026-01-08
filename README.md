@@ -15,7 +15,7 @@ project lifecycle**:
 - Conversational interface using Amazon Lex
 - Foundations for MLOps and scalable deployment
 
-### 🧠 Solution Overview
+### 🎯 Problem Statement
 Financial advisory workflows require accurate, explainable, and compliant
 recommendations grounded in internal documents such as product brochures,
 risk disclosures, and client eligibility constraints.
