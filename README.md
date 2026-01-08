@@ -15,7 +15,7 @@ project lifecycle**:
 - Conversational interface using Amazon Lex
 - Foundations for MLOps and scalable deployment
 
-### Problem Statement
+### 🧠 Solution Overview
 Financial advisory workflows require accurate, explainable, and compliant
 recommendations grounded in internal documents such as product brochures,
 risk disclosures, and client eligibility constraints.
@@ -25,3 +25,21 @@ or contractual boundaries.
 
 This project addresses those limitations using a RAG-based architecture
 that ensures all responses are grounded in approved source documents.
+
+### 🧠 Solution Overview
+We implemented a Retrieval-Augmented Generation (RAG) architecture using
+AWS-native GenAI services:
+
+- Amazon S3 for document storage
+- Amazon Bedrock Knowledge Bases for embeddings and retrieval
+- Amazon Titan Embeddings v2 for vectorization
+- Amazon OpenSearch Serverless as the vector database
+- Amazon Lex for intent-driven conversational interactions
+
+### 🚀 Key Capabilities
+- Product recommendations based on client risk appetite and ROI expectations
+- Compliance validation using client legal and regulatory constraints
+- Risk explanation and eligibility checks
+- Grounded answers retrieved directly from source documents
+
+
